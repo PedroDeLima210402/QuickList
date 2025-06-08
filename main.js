@@ -69,4 +69,4 @@ function checkItem(itemName) {
 
 function addHideWarningClass() {
     document.querySelector(".warning").classList.add("hide-warning")
-}
+}   
