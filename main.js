@@ -1,3 +1,4 @@
+
 const items = []
 
 function addItme(){
@@ -9,6 +10,8 @@ function addItme(){
     }
 
     items.push(item)
+
+    document.querySelector("#item").value = ""
 
     
 }
